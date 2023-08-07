@@ -1,9 +1,9 @@
 # dwschallenge
-1.Added components like TransferController, TransferService, TransferRepositorty 
-2.implement AmountTransfer Fuctionality with thredsafe and Email Functionality in TransferService Class
-3.stroing the input data in TransferRepostory for Audit purpose
+1.Added new Rest PostAPI(/transfer) in Acco
+2.implement AmountTransfer Fuctionality with thredsafe and Email Functionality in AccountsService Class
+3.stroing the input data in AccountsRepository (createTransaction) for Audit purpose
 4.Handling Exceptions using AmountTransferException 
-5.Added TransferControllerTest Class to Test multiple scenarios
+5.Added UnitTest Cases in Controller and Service Test Class to Test multiple scenarios
 
 
 //improvement needed for production deployment
