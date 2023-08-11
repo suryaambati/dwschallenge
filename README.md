@@ -1,5 +1,5 @@
 # dwschallenge
-1.Added new Rest PostAPI(/transfer) in Acco
+1.Added new Rest PostAPI(/transfer) in AccontsController
 2.implement AmountTransfer Fuctionality with thredsafe and Email Functionality in AccountsService Class
 3.stroing the input data in AccountsRepository (createTransaction) for Audit purpose
 4.Handling Exceptions using AmountTransferException 
